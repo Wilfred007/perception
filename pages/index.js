@@ -23,7 +23,9 @@ export default function Home() {
               <h1 className='max-w-md text-4xl font-bold text-center md:text-5xl md:text-left'>Your One Stop For Amazing Outfits</h1>
               <p className='max-w-sm text-center text-gray-700 md:text-left'>Perception fashion store is a one-stop shop for all your fashions needs both new and pre- loved wear</p>
               <div className='flex justify-center md:justify-start'>
-                <a className='p-3 px-6 pt-2 text-white bg-blue-500 rounded-full baseline hover:blue-700'>Explore</a>
+                <a href='/About' className='p-3 px-6 pt-2 text-white bg-blue-500 rounded-full baseline hover:blue-700'>Explore</a>
+
+                <a href='/Gallery' className='p-3 px-6 pt-2 text-white bg-blue-500 rounded-full baseline hover:blue-700 mx-5'>Gallery</a>
 
               </div>
             </div>
@@ -146,6 +148,46 @@ export default function Home() {
                 
               </div>
             </div>
+          </div> 
+
+          <div className='flex bg-gray-100 mx-auto p-10 mt-10 font-bold'>
+            <h1 className='text-black item-center justify-center'>Join the conversation</h1>
+            <Link href='https://instagram.com/perceptionstores?igshid=YmMyMTA2M2Y='>
+            <Image
+              src="/instagram.png"
+              alt="Picture of the author"
+              width={100}
+              height={100}
+              className='w-10 rounded-lg mx-5'
+              /> 
+            
+            </Link>
+
+            <Link href='https://api.whatsapp.com/send?phone=%2B2348036888507&data=AWDwVUiS8X_UJ_QFrE69_o2jBWFaAcykZa8k3BEdi5-UV6UArS-0b6cOjPebYBaMQ8IKTcx8O-O1G3R0GvKS55zpWaPOJurrTCD1HHTcaRmeNILegwswekXnN9e1YiGamyDpiQSQ-BsohoMjJl_4e2IWu4F_ogbwk52ouLo9amx4FTH10ePsqpYadIH3ZPW3H7bmXCApR1DW2vBBHDQzt8HF_J7sZzOKuSZsGXOdMu6Kldy797-lQ_juL1yow8BQQ59W6XnmLCqmqg6y1Y0m-q_gS04AvZwDqMvL_st70GXar6CDT6s&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR1Nyfp_XELBXAUIblvv34BucFgdc-ZTEmdCAZSRLuwGTjid7P_iu_6oVhQ'>
+            <Image
+              src="/whatsapp.jpg"
+              alt="Picture of the author"
+              width={200}
+              height={200}
+              className='w-10 rounded-lg mx-4'
+              /> 
+            
+            </Link>
+
+            <Link href='https://web.facebook.com/perceptionstores/?_rdc=1&_rdr'>
+            <Image
+              src="/facebook.png"
+              alt="Picture of the author"
+              width={100}
+              height={100}
+              className='w-10 rounded-lg mx-5'
+              /> 
+            
+            </Link>
+          </div>
+          <div>
+           
+
           </div>
         </section>
 
@@ -154,7 +196,9 @@ export default function Home() {
           <h2 className='text-5xl font-bold leading-tighttext-center text-white md:text-4xl md:max-w-xl md:text-left'>Your Shopping Needs and Outfits All In One Place</h2>
 
           <div>
-          <a className='p-3 px-6 pt-2 text-black bg-white rounded-full baseline hover:blue-700 cursor:pointer hover:bg-blue-300 shadow-2xl'>Explore</a>
+            
+          <a href='/Gallery' className='p-3 px-6 pt-2 text-black bg-white rounded-full baseline hover:blue-700 cursor:pointer hover:bg-blue-300 shadow-2xl'>Explore</a>
+          
 
           </div>
           </div>
